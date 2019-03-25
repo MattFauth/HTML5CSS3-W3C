@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hello World</title>
+</head>
+<body>
+  <h1> Hello World Title </h1>
+  <p id="paragraph-1" class="regular-paragraphs"> Hello world, this is the <em>first</em> paragraph of this HTML. </p>
+  <p id="paragraph-2" class="regular-paragraphs"> Now this is another paragraph in the same HTML. <br> Break test right here <br> To break the line you have to use &lt;br&gt; </p>
+  <img src="https://goo.gl/pVxY0e" alt="Floating Flower" width=500/>
+  <p id="paragraph-3" class="regular-paragraphs">To comment something in HTML you have to use the comment tag, which is
+    &lt;!-- something like this --&gt;
+  </p>
+  <h2>
+    I have hobbies
+  </h2>
+  <p>This is an unnordered list</p>
+  <ul>
+    <li>Crossfit</li>
+    <li>Learning</li>
+    <li>Gaming</li>
+  </ul>
+  <p>This is an ordered list</p>
+  <ol>
+    <li>Gaming</li>
+    <li>Learning</li>
+    <li>Crossfit</li>
+  </ol>
+  <p>
+    This is my Twitter <a href="https://twitter.com/MattCFauthS">@MattCFauthS</a>
+  </p>
+  <hr></hr>
+  <p> 
+    Some characters in HTML writing:
+    <ul>
+      <li>&lt; = &amp;lt; </li>
+      <li>&gt; = &amp;gt;</li>
+      <li>&amp; = &amp;amp;</li>
+      <li>&quot; = &amp;quot;</li>
+      <li>&nbsp; = Non-Breaking space(&amp;nbsp)</li>
+    </ul>
+  </p>
+  <p>
+    Page with all named character references in HTML: <a href="https://dev.w3.org/html5/html-author/charref">Click here</a>
+  </p>
+  <q>Brevity is beautiful</q>
+  <blockquote>Early to bed and early to rise, makes someone healthy, wealthy and wise - Benjamin Franklin</blockquote>
+</body>
+</html>
