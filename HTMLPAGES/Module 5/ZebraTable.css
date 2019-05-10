@@ -1,0 +1,17 @@
+table { border-collapse: collapse; }
+table, th, td { padding: 15px; border-bottom: 1px solid black; }
+
+table.eg1 tr:nth-child(even) { background-color: #ccff99; }
+
+table.eg2 tr:nth-child(odd) { background-color: #ccff99; }
+
+table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
+
+table.eg4 tr:hover { background-color: red; }
+
+table.eg5 tr:hover { background-color: grey; }
+
+div.overflow-hidden { overflow: hidden; }
+div.overflow-scroll { overflow: scroll; }
+div.overflow-auto { overflow: auto; }
+div.overflow-x-auto { overflow-x: auto; overflow-y:hidden; }

@@ -4,106 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Hello World</title>
-  <style>
-
-    html, body{
-      font-family: Verdana;
-      font-size: 25px;
-      background-color: lightsteelblue;
-    }
-
-    p{
-      font-size: .7em;
-      color:firebrick;
-      margin-left:   10px; 
-      margin-right:  10px;   
-      margin-top:    10px;   
-      margin-bottom: 10px; 
-    }
-
-    #physics { color: red; }
-
-    .rainbow { color: green; }
-
-    .testingp1{
-      font-size: .7em;
-      margin-left:   10px; 
-      margin-right:  10px;   
-      margin-top:    10px;   
-      margin-bottom: 10px;
-      color: darkslategrey;
-    }
-
-    .testingp2{
-      font-size: .7em;
-      margin-left:   10px; 
-      margin-right:  10px;   
-      margin-top:    10px;   
-      margin-bottom: 10px;
-      text-decoration: underline;
-    }
-
-    #testp1{/*This styles p with this ID*/
-      font-size: .7em;
-      color: fuchsia;
-      margin-left:   10px; 
-      margin-right:  10px;   
-      margin-top:    10px;   
-      margin-bottom: 10px; 
-    }
-
-    ul{
-      color:firebrick;
-      list-style-type: none;
-      margin: 10px;
-      list-style-position: inside;
-    }
-
-    ol{
-      color:firebrick;
-      list-style-type: upper-roman;
-      margin: 10px;
-      list-style-position: inside;
-    }
-
-    a{
-      font-size: 1.5em;
-      color: goldenrod;
-    }
-
-    h1{
-      font-size: 2.0em;
-      color: purple;
-      text-decoration: underline overline;
-      margin: 15px;
-    }
-
-    #test1{/*This styles a h1 tag with an ID*/
-      font-size: 2.0em;
-      color: darkgreen;
-      text-decoration: underline overline;
-      margin: 15px;
-    }
-
-    h2{
-      font-size: 1.8em;
-      color: purple;
-      text-decoration: underline overline;
-    }
-
-    h3{
-      font-size: 1.6em;
-      color: purple;
-      text-decoration: underline overline;
-    }
-    
-    blockquote{
-      font-size: 2.5em;
-      color: darkblue;
-      text-decoration: underline;
-    }
-    
-  </style>
+  <link rel="stylesheet" href="Page1Style.css">
 </head>
 <body>
   <h1> Hello World Title </h1>
@@ -270,5 +171,33 @@
   </table>
 
   <p> &lt; th &gt; is the tag we use to create a new cell</p>
+
+  <p>The width of the first whole column is decided by the width of the cell with most content:</p>
+<table>
+    <tr><th>Names</th><th>Profession</th></tr>
+    <tr><td>Michael Fernandez</td><td>Doctor</td></tr>  
+    <tr><td>Amy Frank</td><td >Computer Engineer</td></tr>  
+</table>
+
+<p>Specifying the width for one cell will affect the whole column. Width is set in percentage relative to the whole table:</p>
+<table>
+    <tr><th class="eg1">Names</th><th>Profession</th></tr>
+    <tr><td>Michael Fernandez</td><td>Doctor</td></tr>  
+    <tr><td>Amy Frank</td><td >Computer Engineer</td></tr>  
+</table>
+
+<p>Specifying the height for one cell will affect the whole row. Height is set in fixed pixels:</p>
+<table>
+    <tr><th class="eg2">Names</th><th>Profession</th></tr>
+    <tr><td>Michael Fernandez</td><td>Doctor</td></tr>  
+    <tr><td>Amy Frank</td><td >Computer Engineer</td></tr>  
+</table>
+
+<p>Specifying 100% for table width will occupy the whole width of the parent element:</p>
+<table class="eg3">
+    <tr><th>Names</th><th>Profession</th></tr>
+    <tr><td>Michael Fernandez</td><td>Doctor</td></tr>  
+    <tr><td>Amy Frank</td><td >Computer Engineer</td></tr>  
+</table>
 </body>
 </html>

@@ -1,0 +1,24 @@
+html, body{
+    background-color: bisque;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.t1 > tr, th, td{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.t2 > tr, th, td{
+    padding:10px;
+}
+
+.t3 > tr, th{
+    background: gray;
+}
+
+.t3 > tr, td{
+    background: lightgray;
+}
