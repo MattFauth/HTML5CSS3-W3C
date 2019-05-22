@@ -128,3 +128,18 @@ table.eg3
 {
   width: 100%;
 }
+iframe {
+  border: 10px solid red;
+  padding: .5rem;
+  margin: 1rem;
+  box-shadow: 20px 20px 10px #888888;
+  width: 45rem;
+  height: 30rem;
+}
+.kitten { 
+  padding: .4rem;
+  background-color: ivory;
+  border: .3rem none;
+  border-radius: 25px;
+  text-align: center;
+}

@@ -204,7 +204,7 @@
 <p>Here's Enter Sandman by Metallica:</p>
 <audio src="https://mb.wolfgangsvault.com/audio/320/30478.mp3" controls>This song is not supported by the browser</audio>
 <p>And now Psycho Killer by The Talking Heads:</p>
-<audio src="https://mb.wolfgangsvault.com/audio/dls/S61754.mp3" controls>This song is not supported by the browser</audio>
+<audio src="https://mb.wolfgangsvault.com/audio/dls/S61754.mp3" controls preload="auto" autoplay>This song is not supported by the browser</audio>
 <p>And the example from the course:</p>
 <audio src="https://archive.org/download/Music_Calgary_PD_1/The.good.the.bad.and.the.ashy.mp3" controls loop muted preload="none">
   Your browser does not support the audio file.
@@ -212,5 +212,19 @@
 <h2<>Down here I'll be adding videos</h2>
 <p>This is one of the most beautiful presentations I've seen, the Tony's:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4SQfsBsMFls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h1>A test with various formats of video</h1>
+<video controls height="320" width="240">
+  <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+  <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+  <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+  Your browser does not support the HTML5 video element.
+</video>
+<p>This is used when a browser can't open a certain file format</p>
+<h1>The optional iFrame</h1>
+<p>This is a parent page that will host the iframe.</p>
+<iframe src="https://www.w3.org/">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+<p class="kitten">Women and cats will do as they please, and men and dogs should relax and get used to the idea. <br />- Robert A. Heinlein</p>
 </body>
 </html>
