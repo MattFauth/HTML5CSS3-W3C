@@ -1,0 +1,76 @@
+html, body{
+    background-color: beige;
+    margin: 25px;
+    font-size: 30px;
+    font-family: Verdana;
+  }
+  h1{
+    background-color: wheat;
+    color: black;
+    font-size: 1.8rem;
+    padding: .35rem;
+    text-align: center;
+    border: .35rem hidden red;
+    border-radius: 25px;
+    box-shadow: 8px 8px 10px black;
+    text-shadow: 5px 5px 7px grey;
+  }
+  h2{
+    background-color: wheat;
+    color:black;
+    font-size: 1.5rem;
+    width: 25rem;
+    padding: .3rem;
+    border: .25rem ridge lightblue;
+    border-width: 5px;
+    border-radius: 25px;
+    box-shadow: 8px 8px 10px black;
+    text-shadow: 3px 3px 5px grey;
+  }
+ article p{
+    color:royalblue;
+    font-size: .8rem;
+    margin-right: 20px;
+  }
+  ol{
+    color: violet;
+    font-size: .75rem;
+    list-style-type: decimal-leading-zero;
+  }
+  nav{
+    background-color: lightgoldenrodyellow;
+    width: 25em;
+    padding-left: 25px;
+    border: .4rem hidden black;
+    box-shadow: 2px 2px 2px 4px grey;
+  }
+  nav > ul > li > a{
+    color: gold;
+  }
+  nav > ul{
+    color: black;
+  }
+  img{
+    width: 300px;
+    height: 300px;
+    padding: .5rem;
+    background-color: aliceblue;
+    border: .4rem hidden black;
+    border-radius: .2rem;
+    box-shadow: 4px 4px 6px grey;
+  }
+  article{
+    margin-left:  100px;
+  }
+  details > nav > ul > li:hover{background-color: lightblue; background-size: 200px}
+  details > nav > ul > li:active{background-color: peru}
+  table, th, td{
+    border: .1rem solid black;
+    border-collapse: collapse;
+  }
+  th{
+    background-color: orange;
+  }
+  td{
+    background-color: green;
+  }
