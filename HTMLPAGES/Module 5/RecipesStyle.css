@@ -5,6 +5,8 @@ html, body{
     font-family: Verdana;
   }
   h1{
+    display: flex;
+    flex-flow: row wrap;
     background-color: wheat;
     color: black;
     font-size: 1.8rem;
