@@ -11,6 +11,7 @@ html, body{
     margin-right:  10px;   
     margin-top:    10px;   
     margin-bottom: 10px; 
+    flex: 1 1 87px;
   }
 
   #physics { color: red; }
@@ -68,6 +69,7 @@ html, body{
     color: purple;
     text-decoration: underline overline;
     margin: 15px;
+    flex: 1 1 87px;
   }
 
   #test1{/*This styles a h1 tag with an ID*/
@@ -129,6 +131,7 @@ table.eg3
   width: 100%;
 }
 iframe {
+  display: flex;
   border: 10px solid red;
   padding: .5rem;
   margin: 1rem;
