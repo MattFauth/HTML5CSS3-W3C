@@ -1,0 +1,25 @@
+/* initialize flexbox container and flexbox items */
+.fc { 
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .fc > * { 
+    flex: 1; 
+  }
+  
+  /* header and footer should be full width */
+  .fc header,
+  .fc footer {
+    flex: 0 1 100vw; 
+  }
+          
+  /* ensure flex-container is always at least as tall as the viewport. 
+     Keeps footer from coming up*/
+  .fc { min-height: 100vh; }
+
+  header,
+footer {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100px;
+}
